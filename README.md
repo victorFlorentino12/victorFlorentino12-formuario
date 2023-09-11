@@ -5,6 +5,4 @@
 node app.js
 ```
 
-<div>
-  <img src="https://github.com/victorFlorentino12/victorFlorentino12-formuario/issues/1#issue-1891116929" >
-</div>
+
