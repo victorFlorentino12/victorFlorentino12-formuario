@@ -1,0 +1,201 @@
+:root{
+    --primario:#021859;
+    --header:#04B2D9;
+    --button:#0CF2DB;
+    --caixa:#0455BF;
+    --meio:#0468BF;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+  font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color: var(--primario);
+}
+header{
+    background-color:var(--header) ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.logo-box{
+    width: 44%;
+    font-size: 30px;
+}
+.menu{
+    width: 33%;
+    font-size: 20px;
+    display:flex;
+    margin-left: 80px;
+    text-align: right;
+}
+a{
+    margin:0 5%;
+    text-align:right;
+    text-decoration:none;
+    font-size: 24px;
+}
+.button{
+    background-color: var(--button);
+    border-radius: 15px;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center; 
+    padding:13px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+        }
+img {
+    width: 100%;
+}
+.button:hover{
+    border: 1px solid orange;
+}
+a:hover{
+    border-bottom: 3px solid orange;
+}
+#conteudo>h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+#conteudo{
+    color: white;
+    background-color:var(--caixa);
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow:5px 5px var(--button);
+
+}
+.saiba{
+    margin:5%  auto;
+    background-color: white;
+    color: black;
+    width: 25%;
+    padding:20px 23px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    
+}
+.contrate{
+    width: 100%;
+    margin: 40px auto;
+    background-color:var(--meio);
+    text-align: center;
+    color: white;
+    padding:20px;
+
+}
+.contrate > h1{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.contrate-2{
+    margin: 2% auto;
+    background-color: var(--button);
+    color: black;
+    width: 30%;
+    padding:20px 23px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.section-depoimento{
+    text-align: center;
+    color: white;
+}
+.depoimentos{
+    display: flex;
+    padding:20px 0;
+    margin-right: 10px;
+
+}
+.depoimento-single{
+    background-color: var(--meio);
+    padding: 20px 10px 0 10px;
+    border: 1px solid black;
+    width: 30%;
+    margin: auto;
+    color:white;
+    border-radius: 20px;
+    box-shadow:5px 5px var(--button);
+}
+.rosto{
+    max-width: 80px;
+    max-height: 80px;
+    margin-bottom:15px;
+}
+.estrela{
+    max-width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.depoimento-single:hover{
+    box-shadow: none;
+}
+@media screen and (max-width:380px){
+ header{
+     display: block;
+    
+ }
+ .logo-box{
+    width: 100%;
+    margin-bottom: 15px;
+ }
+ .menu{
+    width: 100%;
+    margin: 0 auto ;
+    padding: 0 ;
+
+    text-align: center;
+    
+ }
+ .menu a{
+    margin:15px auto;
+ }
+    .depoimentos{
+    display: block;
+    text-align: center;
+    }
+
+ .depoimento-single{
+    width: 70%;
+    margin: 20%;
+ 
+ }
+
+ .quem{
+    width: 100%;
+    text-align: center;
+
+ }
+
+ .saiba{
+    width: 50%;
+
+ }
+
+ #conteudo{
+    width: 70%;
+    
+
+ }
+ .contrate-2{
+    width: 50%;
+    text-align: center;
+ }
+
+ 
+ 
+
+
+}
